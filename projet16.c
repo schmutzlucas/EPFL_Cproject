@@ -7,14 +7,14 @@
  */
 
 // *******************************************************************
-// 		inclusion de fichiers en-tête avec la directives include
+// 	Inclusion de fichiers en-tête avec la directives include
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
 // *******************************************************************
-//			   Symboles définies avec la directive define
+//		Symboles définies avec la directive define
 
 #define L_MAX			500
 #define C_MAX			500
@@ -26,12 +26,12 @@
 #define CHAR_MAX_LGN		70
 #define NORM			-1
 
-//             Symboles définies avec l'instruction enum
+//             Symboles définis avec l'instruction enum
 
 enum Proprietes_image {D_COL, D_LIGNE, PROF, NBC, NBL, INTENSITE};
 
 // *******************************************************************
-//						Functions declaration
+//			Functions declaration
 
 // ########   ne pas modifier ces déclarations de fonctions    #######
 
@@ -99,10 +99,10 @@ void impression(int new_max, int nbL_s, int nbC_s,
 // ############################ END ##################################
 
 // *******************************************************************
-//						Global variable
+//			Global variable
 
 /** a boolean to know whether to output verbose messages or not */
-static bool	verbose;
+static bool verbose;
 
 // *******************************************************************
 //						MAIN
