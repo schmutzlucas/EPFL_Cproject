@@ -23,7 +23,7 @@
 #define NB_INFOS		6
 #define IMG1			0
 #define IMG2			1
-#define CHAR_MAX_LGN	70
+#define CHAR_MAX_LGN		70
 #define NORM			-1
 
 //             Symboles définies avec l'instruction enum
